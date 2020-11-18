@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	text-align:center;
+	color:white;
+	
+	
+}
+h3{padding-top:15px;}
+
+body{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:#f7fcff;
+	min-height:10vh;
+}
+
+.container{
+	positon:relative;
+	width:1100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height: 100vh;
+	
+}
+.box {
+	width:300px;
+	height:365px;
+	position:relative;
+    margin: 30px;
+    background: #ffff;
+    box-shadow: 0px 5px 5px 0px #0000003b;
+}
+
+.icondiv {
+    padding: 67px;
+	display:grid;
+	justify-content:center;
+	align-items:cemter;
+	
+	
+}
+.icondiv img {
+   
+	display:grid;
+	justify-content:center;
+	align-items:cemter;
+	transition:0.4s;
+	transition-delay:0s;
+	
+	
+}
+.box img{
+	
+	    width: 100px;
+		    margin-top: 61px;
+			
+	
+	
+	
+}
+.box:hover .icondiv img{
+	
+	transform:scale(0);
+}
+.box:hover .content1{
+	
+	transform:scale(1);
+}
+.box:hover .content2{
+	
+	transform:scale(1);
+}
+.box:hover .content3{
+	
+	transform:scale(1);
+}
+
+.content1 {
+    position: relative;
+    top: -295px;
+	left:0;
+	width:100%;
+	height:100%;
+	padding:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	transition:0.5s;
+	background:#e91e63;
+	text-align:center;
+	transform:scale(0);
+	transition-delay:0.2s;
+	
+}
+.content2 {
+    position: relative;
+    top: -295px;
+	left:0;
+	width:100%;
+	height:100%;
+	padding:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	transition:0.5s;
+	background:#2196F3;
+	text-align:center;
+	transform:scale(0);
+	transition-delay:0.2s;
+}
+.content3 {
+    position: relative;
+    top: -295px;
+	left:0;
+	width:100%;
+	height:100%;
+	padding:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	transition:0.5s;
+	background:#673AB7;
+	text-align:center;
+	transform:scale(0);
+	transition-delay:0.2s;
+}
+.iconafter img{
+	
+	filter:invert(1);
+	
+}
